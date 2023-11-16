@@ -51,7 +51,7 @@ const GradientDiv:React.FC<GradientDivProps> = ({children,className,radius}) =>{
 
     return(
         <div style={{
-            backgroundImage: `linear-gradient( ${MouseToCenterTheta() }rad, black, #454545) `
+            backgroundImage: `linear-gradient( ${(MouseToCenterTheta() - Math.PI/2)* -1 }rad, black, #454545) `
         }} className={` p-[1px] w-[50rem] rounded-2xl ${radius}` }>
             <div className={`${className} ${radius}`}>
                 {children}
