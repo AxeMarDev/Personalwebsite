@@ -1,4 +1,4 @@
-import React, {ReactNode} from "react";
+import React, {ReactNode, useState} from "react";
 
 const GradientXPosition = () => {
 
@@ -37,13 +37,15 @@ const GradientYPosition = () => {
     return (mousePosition.y)
 };
 
-
 interface GradientTrackDivProps{
     children:ReactNode
     className:string
 }
 
 const GradientTrackDiv:React.FC<GradientTrackDivProps> = ({children,className}) =>{
+
+    const [ points , setPoints] = useState([])
+
     return(
         <div style={{
             backgroundImage: `radial-gradient( circle at ${GradientXPosition()}px ${GradientYPosition()}px, #1D1D1D  , black 50% )`
