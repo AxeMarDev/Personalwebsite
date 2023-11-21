@@ -16,7 +16,8 @@ function App() {
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://github.com/AxeMarDev"} target={"_blank"}>Github</a>  </p>
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://www.linkedin.com/in/axell-martinez-avila-158229223/"} target={"_blank"}>Linkedin</a>  </p>
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://railiant.us"} target={"_blank"}>resume</a> </p>
-                <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://medium.com/@axellmartinez1515"} target={"_blank"}>medium</a> </p>
+                <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://axellmartinezdev.medium.com/"} target={"_blank"}>medium</a> </p>
+                <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://www.youtube.com/channel/UCuJ-60Im8FPw9c05WUxNSmg"} target={"_blank"}>youtube</a> </p>
             </div>
         </GradientDiv>
     </GradientTrackDiv>
@@ -24,3 +25,4 @@ function App() {
 }
 
 export default App;
+
