@@ -11,7 +11,7 @@ const Header = () =>{
             <div className={"flex flex-row"}>
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://github.com/AxeMarDev"} target={"_blank"}>Github</a>  </p>
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://www.linkedin.com/in/axell-martinez-avila-158229223/"} target={"_blank"}>Linkedin</a>  </p>
-                <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://https://www.linkedin.com/in/axellmartinez/overlay/1715570187405/single-media-viewer/?profileId=ACoAADgYp5QBB84PLIMZdn3HRJDWieJgckeAPPA"} target={"_blank"}>resume</a> </p>
+                <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://www.linkedin.com/in/axellmartinez/overlay/1715570187405/single-media-viewer/?profileId=ACoAADgYp5QBB84PLIMZdn3HRJDWieJgckeAPPA"} target={"_blank"}>resume</a> </p>
                 <p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://axellmartinezdev.medium.com/"} target={"_blank"}>medium</a> </p>
                 {/*<p className={"text-white pr-4"}> <a className={"text-blue-500"} href={"https://www.youtube.com/channel/UCuJ-60Im8FPw9c05WUxNSmg"} target={"_blank"}>youtube</a> </p>*/}
             </div>
